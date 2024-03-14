@@ -21,6 +21,10 @@
    padding: 2%;
    margin: 5%;
  }
+
+ .img {
+  width: 50px;
+ }
  
  ul {
    list-style-type: none; 
