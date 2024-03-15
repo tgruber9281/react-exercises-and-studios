@@ -1,9 +1,13 @@
 import './styles.css';
 
-function Button() {
 
+
+function Button(props) {
+   function onLearnMore(){
+      alert(`Learn more ${props.name}`)
+   }   
    return ( 
-         <button>
+         <button name={props.name} onClick={onLearnMore}>
             Learn More
          </button>
    );

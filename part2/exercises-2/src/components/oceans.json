@@ -7,7 +7,7 @@
       "fact3": "Fossil records date stingrays back to the Jurassic period, 150 million years ago",
       "image": "https://em-content.zobj.net/thumbs/240/google/350/shark_1f988.png",
       "creatureCheck": "true", 
-      "fishCheck": "true"
+      "fishCheck": true
    }, {
       "id":2,
       "name": "Crustaceans",
@@ -16,7 +16,7 @@
       "fact3": "Lobsters can re-grow an eye or an arm",
       "image": "https://em-content.zobj.net/thumbs/240/google/350/crab_1f980.png",
       "creatureCheck": "true", 
-      "fishCheck": "false"
+      "fishCheck": false
    }, {
       "id":3,
       "name": "Mammals",
@@ -25,7 +25,7 @@
       "fact3": "Sea mammals with flippers are called pinnipeds",
       "image": "https://em-content.zobj.net/thumbs/240/google/350/seal_1f9ad.png",
       "creatureCheck": "true",
-      "fishCheck": "false"
+      "fishCheck": false
    }, {
       "id":4,
       "name": "Fish",
@@ -34,7 +34,7 @@
       "fact3": "Infantfish are the smallest fish in the world, reaching 8 millimeters in length",
       "image": "https://em-content.zobj.net/thumbs/240/google/350/tropical-fish_1f420.png",
       "creatureCheck": "true",
-      "fishCheck": "true"
+      "fishCheck": true
    }, {
       "id":5,
       "name": "Birds",
@@ -43,7 +43,7 @@
       "fact3": "Adelie Penguin feces are pink and they are visible from space",
       "image": "https://em-content.zobj.net/thumbs/240/google/350/penguin_1f427.png",
       "creatureCheck": "true",
-      "fishCheck": "false"
+      "fishCheck": false
    }, {
       "id":6,
       "name": "Squids, Octopuses and Cephalopods",
@@ -52,7 +52,7 @@
       "fact3": "The Thai Bobtail Squid is the world's smallest squid averaging 0.4 inches",
       "image": "https://em-content.zobj.net/thumbs/240/google/350/octopus_1f419.png",
       "creatureCheck":  "true",
-      "fishCheck": "false"
+      "fishCheck": false
    }, {
       "id":7,
       "name": "Reptiles and Amphibians",
@@ -61,7 +61,7 @@
       "fact3": "When sea turtles sleep, they can slow their heart rate as slow as 4 beats per minute to conserve oxygen",
       "image": "https://em-content.zobj.net/thumbs/240/google/350/crocodile_1f40a.png",
       "creatureCheck":  "ture",
-      "fishCheck": "false"
+      "fishCheck": false
    }, {
       "id":8,
       "name": "Oceans",
@@ -70,6 +70,6 @@
       "fact3": "Much of the world's oxygen is created by phytoplankton and algae",
       "image": "https://em-content.zobj.net/thumbs/240/google/350/water-wave_1f30a.png",
       "creatureCheck":  "false",
-      "fishCheck": "false"
+      "fishCheck": false
    }
 ]
