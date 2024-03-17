@@ -23,9 +23,9 @@ export default function MyProjects() {
       <button onClick={handleClick}>
         Next
       </button>
-      <h2>{project.canvas} by {project.designer}
+      <h2>{project.flyName} is a {project.type} fly.
       </h2>
-      <img src={project.photoUrl} alt={project.alt} />
+      <img width='150px' src={project.photoURL} alt={project.alt} />
     </div>
   );
 }

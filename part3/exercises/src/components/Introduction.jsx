@@ -1,11 +1,11 @@
 export default function HobbyIntroduction () {
    return(
       <div>
-         <h2>3 Fun Facts About Needlepoint</h2>
+         <h2>3 Fun Facts About Fly Fishing</h2>
          <ol>
-            <li>Needlepoint uses a specialized canvas as it's base.</li>
-            <li>The most basic stitch is called a tent stitch.</li>
-            <li>Needlepoint uses a lot of different kinds of fibers.</li>
+            <li>Fly Fishing uses long fishing rods designed to maximize leverage and impart motion to the fishing line.</li>
+            <li>Fly Fishing lures are made to mimic different insects and various fish foods.</li>
+            <li>Flies may be a "dry fly" or a "wet fly".</li>
          </ol>
       </div>
    );
