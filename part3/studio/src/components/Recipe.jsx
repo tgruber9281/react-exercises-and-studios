@@ -1,9 +1,9 @@
 import { useState } from 'react';
 
 const RecipeAuthor = () => {
-   let authorLink = "";
-   let authorPhoto = "";
-   let authorName = "";
+   let authorLink = "https://kitchenfunwithmy3sons.com/";
+   let authorPhoto = "https://kitchenfunwithmy3sons.com/wp-content/uploads/2022/08/mom-and-sons-square.jpg";
+   let authorName = "Jill Mills";
 
    return (
       <div>
@@ -17,7 +17,7 @@ const RecipeAuthor = () => {
 }
 
 const RecipeIngredients = () => {
-   const ingredients = [];
+   const ingredients = ['1/2 cup honey', '1 cup dark brown sugar', '1/4 cup unsalted butter', '1 large egg', '2 tsp lemon zest'];
    return(
       <div>
          <h3>Recipe Ingredients</h3>
@@ -36,8 +36,8 @@ const RecipeDescription = () => {
    return (
       <div> 
          <div>
-            <h1></h1>
-            <p></p>
+            <h1>Lebkuchen</h1>
+            <p>Lebkuchen are a German spiced cookie</p>
          </div>
          <div className="recipePhotoBlock">
             <RecipeIngredients />
@@ -49,7 +49,7 @@ const RecipeDescription = () => {
 
 const RecipePhoto = () => {
    return (
-      <img src="" alt="" className="imageUpdates"/>
+      <img src='https://kitchenfunwithmy3sons.com/wp-content/uploads/2022/11/lebkuchen-feat-500x500.jpg' alt="Lebkuchen" className="imageUpdates"/>
    );
 }
 
